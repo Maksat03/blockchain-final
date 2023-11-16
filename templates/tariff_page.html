@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body {
+            padding: 0 50px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            gap: 15px;
+        }
+
+        form input {
+            height: 30px;
+        }
+
+        form .tg_id {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Tariff Name</h2>
+    <p>Tariff Description</p>
+    <h4><b>1000 tng</b></h4>
+
+    <form action="/user/subscribe/" method="post">
+        {% csrf_token %}
+        <div class="tg_id">
+            <input type="text" name="tg_id" placeholder="Telegram Id" required>
+            <a target="_blank" href="https://web.telegram.org/k/#@getmyid_bot">How to get telegram ID?</a>
+        </div>
+        <input type="text" name="card" placeholder="Card (**** **** **** ****)" required>
+        <input type="text" name="cvv" placeholder="cvv" required>
+        <input type="text" name="expires" placeholder="Expires (**/**)" required>
+        <input type="text" name="owner_name" placeholder="Owner Name" required>
+        <input type="submit">
+    </form>
+</body>
+</html>

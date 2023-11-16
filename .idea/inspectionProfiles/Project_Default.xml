@@ -1,0 +1,53 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="six" />
+            <item index="1" class="java.lang.String" itemvalue="aiogram" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="user.models.Client.objects" />
+          <option value="django.contrib.auth.models.User.client" />
+          <option value="site_settings.models.Contact.objects" />
+          <option value="user.models.FavouriteProduct.objects" />
+          <option value="django.contrib.auth.models.User.favourites" />
+          <option value="booking.models.BookingRequest.objects" />
+          <option value="resident.models.Resident.objects" />
+          <option value="booking.models.BookedPlace.objects" />
+          <option value="typing.Mapping.aggregate" />
+          <option value="dict.get" />
+          <option value="product.models.Product.objects" />
+          <option value="request.models.Request.objects" />
+          <option value="product.models.Product.options" />
+          <option value="product.models.ProductOption.objects" />
+          <option value="django.db.models.fields.CharField.lower" />
+          <option value="rest_framework.serializers.Serizalizer" />
+          <option value="base_object_presenter.models.BaseModelPresenter.objects" />
+          <option value="django.db.models.base.Model.objects" />
+          <option value="apiclient.discovery" />
+          <option value="service.models.ServiceImage.objects" />
+          <option value="store.models.Product.objects" />
+          <option value="urllib.parse" />
+          <option value="admin_actions.models.AdminAction.objects" />
+          <option value="booking.models.AcceptedBookingRequest.objects" />
+          <option value="site_settings.models.PlaceTypePrice.objects" />
+          <option value="category.models.Category.objects" />
+          <option value="site_settings.models.Slide.objects" />
+          <option value="user.models.UserRequest.objects" />
+          <option value="product.models.ProductImage.objects" />
+          <option value="cart.models.CartItem.objects" />
+          <option value="order.models.Order.objects" />
+          <option value="order.models.OrderItem.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
